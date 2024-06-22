@@ -15,9 +15,6 @@ function Post() {
                     console.log(json);
                     setApi(Array.isArray(json) ? json : [json]);
                 })
-                .catch((error) => {
-                    console.error('Erro ao carregar API:', error);
-                });
         }
         loadApi();
     }, []);
