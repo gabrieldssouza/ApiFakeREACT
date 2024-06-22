@@ -13,7 +13,7 @@ function Post() {
                 .then((r) => r.json())
                 .then((json) => {
                     console.log(json);
-                    setApi(Array.isArray(json) ? json : [json]);
+                    setApi(json);
                 })
         }
         loadApi();
