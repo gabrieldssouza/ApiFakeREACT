@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #0d47a1;
+}
+
+header a:hover{
+    scale: 1.1;
+}
+
+nav p{
+    color: white;
+}
+
+.gif{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+}
+
+.card2{
+    width: 27vw;
+}
+
+.card3{
+    width: 85vw;
+}
+
+.card-body{
+    height: 270px;
+}
+.disp{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.f1{
+    text-align: center;
+    background-color: #1565c0;
+    padding: 20px;
+    color: white;
+}
+
+.f2{
+    text-align: center;
+    background-color: #0d47a1;
+    color: white;
+    padding: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .card2{
+        width: 95vw;
+    }
+
+    .card3{
+        width: 95vw;
+        height: 100px;
+    }
+}
